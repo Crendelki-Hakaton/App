@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.View;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -15,12 +14,10 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView testText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        init();
     }
 
     public void onClickMic(View view)
@@ -31,10 +28,6 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, 10);
     }
 
-    private void init()
-    {
-        testText = findViewById(R.id.textTest);
-    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
