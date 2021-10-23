@@ -3,6 +3,7 @@ package com.example.voice;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
@@ -58,6 +59,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(MainActivity.this, Balance2.class);
                 startActivity(intent2);
                 break;
+
+            case "выход":
+                finish(); System.exit(0);
+                break;
+
         }
     }
 }

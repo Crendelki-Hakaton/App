@@ -57,6 +57,10 @@ public class Balance1 extends AppCompatActivity {
                 Intent intent2 = new Intent(Balance1.this, Balance2.class);
                 startActivity(intent2);
                 break;
+
+            case "выход":
+                finishAffinity();
+                break;
         }
     }
 }
