@@ -12,10 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Voice">
         <activity
+            android:name=".JKH"
+            android:exported="false" />
+        <activity
             android:name=".Balance2"
             android:exported="false" />
         <activity
             android:name=".Balance1"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionSuccess"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
