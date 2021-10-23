@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        init();
+        init();
     }
 
     public void onClickMic(View view)
@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent, 10);
     }
 
-//    private void init()
-//    {
-//        testText = findViewById(R.id.textTest);
-//    }
+    private void init()
+    {
+        testText = findViewById(R.id.textTest);
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
