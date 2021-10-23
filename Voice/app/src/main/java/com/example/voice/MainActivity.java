@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Locale;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView testText;
