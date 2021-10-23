@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity {
                 finish(); System.exit(0);
                 break;
 
+            case "оплатить жкх":
+                Intent intent3 = new Intent(MainActivity.this, JKH.class);
+                startActivity(intent3);
+                break;
+
         }
     }
 }
