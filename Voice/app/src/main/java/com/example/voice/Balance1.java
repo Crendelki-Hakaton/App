@@ -7,20 +7,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.view.View;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.Locale;
 
+public class Balance1 extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
-    private TextView testText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        init();
+        setContentView(R.layout.activity_balance1);
+
     }
 
     public void onClickMic(View view)
@@ -29,11 +26,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
         startActivityForResult(intent, 10);
-    }
-
-    private void init()
-    {
-        testText = findViewById(R.id.textTest);
     }
 
     @Override
@@ -56,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
     {
         switch (text)
         {
-            case "баланс первой карты":
-                Intent intent = new Intent(MainActivity.this, Balance1.class);
+            case "на главную":
+                Intent intent = new Intent(Balance1.this, MainActivity.class);
                 startActivity(intent);
                 break;
 
             case "баланс второй карты":
-                Intent intent2 = new Intent(MainActivity.this, Balance2.class);
+                Intent intent2 = new Intent(Balance1.this, Balance2.class);
                 startActivity(intent2);
                 break;
         }
