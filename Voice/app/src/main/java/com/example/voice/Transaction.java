@@ -11,14 +11,12 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.Locale;
 
-
-
-public class TransactionSuccess extends AppCompatActivity {
+public class Transaction extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transaction_succes);
+        setContentView(R.layout.activity_transaction);
     }
 
     public void onClickMic(View view)
@@ -50,15 +48,19 @@ public class TransactionSuccess extends AppCompatActivity {
     {
         switch (text)
         {
-            case "на главную":
-                Intent intent = new Intent(TransactionSuccess.this, TwoActivity.class);
+            case "далее":
+                Intent intent = new Intent(Transaction.this, TransactionSuccess.class);
                 startActivity(intent);
+                break;
+
+            case "назад":
+                Intent intent2 = new Intent(Transaction.this, TwoActivity.class);
+                startActivity(intent2);
                 break;
 
             case "выход":
                 finishAffinity();
                 break;
-
         }
     }
 }

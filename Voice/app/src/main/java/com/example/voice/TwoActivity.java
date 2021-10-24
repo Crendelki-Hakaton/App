@@ -12,13 +12,12 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 
-
-public class TransactionSuccess extends AppCompatActivity {
+public class TwoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transaction_succes);
+        setContentView(R.layout.activity_main);
     }
 
     public void onClickMic(View view)
@@ -50,15 +49,34 @@ public class TransactionSuccess extends AppCompatActivity {
     {
         switch (text)
         {
-            case "на главную":
-                Intent intent = new Intent(TransactionSuccess.this, TwoActivity.class);
+            case "баланс первой карты":
+                Intent intent = new Intent(TwoActivity.this, Balance1.class);
                 startActivity(intent);
+                break;
+
+            case "баланс второй карты":
+                Intent intent2 = new Intent(TwoActivity.this, Balance2.class);
+                startActivity(intent2);
+                break;
+
+            case "перевод":
+                Intent intent3 = new Intent(TwoActivity.this, Transaction.class);
+                startActivity(intent3);
+                break;
+
+            case "оплата ЖКХ":
+                Intent intent4 = new Intent(TwoActivity.this, JKH.class);
+                startActivity(intent4);
+                break;
+
+            case "мобильная связь":
+                Intent intent5 = new Intent(TwoActivity.this, mobile_com.class);
+                startActivity(intent5);
                 break;
 
             case "выход":
                 finishAffinity();
                 break;
-
         }
     }
 }

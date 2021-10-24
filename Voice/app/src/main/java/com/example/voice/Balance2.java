@@ -48,7 +48,7 @@ public class Balance2 extends AppCompatActivity {
         switch (text)
         {
             case "на главную":
-                Intent intent = new Intent(Balance2.this, MainActivity.class);
+                Intent intent = new Intent(Balance2.this, TwoActivity.class);
                 startActivity(intent);
                 break;
 

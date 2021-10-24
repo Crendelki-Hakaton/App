@@ -53,6 +53,11 @@ public class JKH extends AppCompatActivity {
                 startActivity(intent);
                 break;
 
+            case "назад":
+                Intent intent2 = new Intent(JKH.this, TwoActivity.class);
+                startActivity(intent2);
+                break;
+
             case "выход":
                 finishAffinity();
                 break;

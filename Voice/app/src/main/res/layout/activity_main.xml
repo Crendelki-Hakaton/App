@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".TwoActivity">
 
     <ImageButton
         android:id="@+id/button"
@@ -44,7 +44,7 @@
         android:layout_width="365dp"
         android:layout_height="43dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Оплата по номеру телефона"
+        android:text="Мобильная связь"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -76,7 +76,7 @@
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Переводы"
+        android:text="Перевод"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -131,7 +131,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152"
+        app:layout_constraintVertical_bias="0.105"
         app:srcCompat="@drawable/shade" />
 
     <ImageView
