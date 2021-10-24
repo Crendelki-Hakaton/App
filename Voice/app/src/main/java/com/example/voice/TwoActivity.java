@@ -49,12 +49,12 @@ public class TwoActivity extends AppCompatActivity {
     {
         switch (text)
         {
-            case "баланс первой карты":
+            case "баланс карты 9954":
                 Intent intent = new Intent(TwoActivity.this, Balance1.class);
                 startActivity(intent);
                 break;
 
-            case "баланс второй карты":
+            case "баланс карты 2465":
                 Intent intent2 = new Intent(TwoActivity.this, Balance2.class);
                 startActivity(intent2);
                 break;
@@ -77,6 +77,27 @@ public class TwoActivity extends AppCompatActivity {
             case "выход":
                 finishAffinity();
                 break;
+
+            case "баланс карты Visa 1":
+                Intent intent6 = new Intent(TwoActivity.this, Balance1.class);
+                startActivity(intent6);
+                break;
+
+            case "баланс карты Visa 2":
+                Intent intent7 = new Intent(TwoActivity.this, Balance2.class);
+                startActivity(intent7);
+                break;
+
+            case "баланс карты накопления":
+                Intent intent8 = new Intent(TwoActivity.this, Balance1.class);
+                startActivity(intent8);
+                break;
+
+            case "баланс карты Классик":
+                Intent intent9 = new Intent(TwoActivity.this, Balance2.class);
+                startActivity(intent9);
+                break;
+
         }
     }
 }
