@@ -54,18 +54,12 @@ public class Balance1 extends AppCompatActivity {
                 break;
 
             case "баланс карты 2465":
-                Intent intent2 = new Intent(Balance1.this, Balance2.class);
-                startActivity(intent2);
-                break;
 
             case "баланс карты Visa 2":
-                Intent intent3 = new Intent(Balance1.this, Balance2.class);
-                startActivity(intent3);
-                break;
 
             case "баланс карты Классик":
-                Intent intent4 = new Intent(Balance1.this, Balance2.class);
-                startActivity(intent4);
+                Intent intent2 = new Intent(Balance1.this, Balance2.class);
+                startActivity(intent2);
                 break;
 
             case "выход":

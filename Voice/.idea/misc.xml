@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lazy cat/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_main.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Lazy cat/Desktop/New folder/App/Voice/app/src/main/res/layout/activity_balance1.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Lazy cat/Desktop/New folder/App/Voice/app/src/main/res/layout/activity_balance2.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Lazy cat/Desktop/New folder/App/Voice/app/src/main/res/layout/activity_main.xml" value="0.11927083333333334" />
+        <entry key="..\:/Users/Lazy cat/Desktop/New folder/App/Voice/app/src/main/res/layout/activity_main_menu.xml" value="0.11927083333333334" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/drawable/circlebutton.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25416666666666665" />
@@ -11,9 +15,6 @@
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_balance2.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_jkh.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
-        <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_mobile_com.xml" value="0.2063063063063063" />
-        <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_transaction.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/activity_transaction_succes.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/layout/main.xml" value="0.2063063063063063" />
         <entry key="..\:/Users/jessi/AndroidStudioProjects/Voice/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2546875" />
