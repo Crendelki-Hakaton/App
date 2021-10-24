@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
-        android:layout_width="277dp"
-        android:layout_height="64dp"
+        android:layout_width="263dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:hint="Логин"
         android:inputType="textPersonName"
@@ -17,22 +17,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.515" />
+        app:layout_constraintVertical_bias="0.48" />
 
     <EditText
         android:id="@+id/editTextTextPersonName8"
-        android:layout_width="275dp"
-        android:layout_height="69dp"
+        android:layout_width="265dp"
+        android:layout_height="62dp"
         android:ems="10"
         android:hint="Пароль"
         android:inputType="textPersonName"
         android:password="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <TextView
         android:id="@+id/textView18"
@@ -40,24 +40,24 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="Фора-Банк"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imageView18"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357" />
+        app:layout_constraintVertical_bias="0.307" />
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="138dp"
-        android:layout_height="116dp"
+        android:layout_width="112dp"
+        android:layout_height="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.342"
+        app:layout_constraintVertical_bias="0.289"
         app:srcCompat="@drawable/icon" />
 
     <ImageButton
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
+        app:layout_constraintVertical_bias="0.758"
         app:srcCompat="@drawable/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,33 +10,34 @@
         android:id="@+id/textView12"
         android:layout_width="179dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="96dp"
+        android:layout_marginEnd="104dp"
         android:fontFamily="sans-serif-condensed-light"
         android:text="****2857"
-        android:textSize="24sp"
+        android:textColor="#595959"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.651" />
+        app:layout_constraintVertical_bias="0.661" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="70dp"
-        android:layout_height="43dp"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView12"
-        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66"
+        app:layout_constraintVertical_bias="0.662"
         app:srcCompat="@drawable/kard_two" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="357dp"
         android:layout_height="55dp"
-        android:fontFamily="sans-serif-condensed-medium"
+        android:fontFamily="serif"
         android:text="Мобильная связь"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -108,6 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text='!  скажите "далее"'
+        android:textColor="#737373"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button7"

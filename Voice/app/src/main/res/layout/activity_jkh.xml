@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="70dp"
-        android:layout_height="43dp"
+        android:layout_width="54dp"
+        android:layout_height="38dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView10"
         app:layout_constraintHorizontal_bias="0.921"
@@ -25,7 +25,7 @@
         android:layout_marginEnd="80dp"
         android:fontFamily="sans-serif-condensed-light"
         android:text="****2857"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -37,6 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text='!  скажите "далее"'
+        android:textColor="#737373"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button5"
@@ -98,7 +99,7 @@
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="30sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
